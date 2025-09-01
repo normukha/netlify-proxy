@@ -1,0 +1,8 @@
+[build]
+  functions = "netlify/functions"
+  publish   = "public"   # optional; can point at any static folder you want
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"

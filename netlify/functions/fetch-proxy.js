@@ -1,7 +1,7 @@
 // netlify/functions/fetch-proxy.js
 const ALLOW_HOSTS = new Set([
   'www.vvapplianceparts.com',
-//  'www.repairclinic.com',          // ← added
+  'www.appliancerepair.homedepot.com',          // ← added
 ]);
 
 const BROWSER_HEADERS = {
